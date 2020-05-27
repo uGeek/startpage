@@ -1,86 +1,67 @@
- <html>
- <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-	<script src="https://kit.fontawesome.com/f00c14539b.js" crossorigin="anonymous"></script>
-	<title>Home</title>
- </head>
- <body>
-	<div class="container">
-		<div id="time" class="time"></div>
-		
-		<form method="GET" action="http://www.google.com/search">
-			<input name="as_q" class="search-field" autofocus>
-			<button type="submit" class="search-submit" value="" style="fill: white"></button>
-		</form>
-		
-		<div class="box">
-			<div class="box-container">
-				<div class="heading">Entertainment</div>
-				<a href="https://www.youtube.com/?gl=DE" target="_blank">
-					<div class="link" tabindex="1">Youtube</div>
-				</a>
-				<a href="https://www.netflix.com/de/" target="_blank">
-					<div class="link" tabindex="2">Netflix</div>
-				</a>
-				<a href="https://www.spotify.com/de/" target="_blank">
-					<div class="link" tabindex="3">Spotify</div>
-				</a>
-				<a href="https://twist.moe/" target="_blank">
-					<div class="link" tabindex="4">Anime Twist</div>
-				</a>
-			</div>
-			<div class="box-container">
-				<div class="heading">School</div>
-				<a href="https://coursefinder.ucsd.edu/" target="_blank">
-					<div class="link" tabindex="5">UCSD Courses</div>
-				</a>
-				<a href="http://piazza.com/" target="_blank" >
-					<div class="link" tabindex="6">Piazza</div>
-				</a>
-				<a href="https://www.gradescope.com/" target="_blank">
-					<div class="link" tabindex="7">Gradescope</div>
-				</a>
-				<a href="http://ieng6.ucsd.edu/~cs15x/" target="_blank">
-					<div class="link" tabindex="8">cse15l</div>
-				</a>
-			</div>
-			<div class="box-container">
-				<div class="heading">Code</div>
-				<a href="https://github.com/" target="_blank">
-					<div class="link" tabindex="9">Github</div>
-				</a>
-				<a href="https://gitlab.com" target="_blank">
-					<div class="link" tabindex="10">Gitlab</div>
-				</a>
-			</div>
-			<div class="box-container">
-				<div class="heading" >Social</div>
-				<a href="https://www.reddit.com/" target="_blank">
-					<div class="link" tabindex="13">Reddit</div>
-				</a>
-				<a href="https://www.reddit.com/r/unixporn/" target="_blank">
-					<div class="link" tabindex="14">r/unixporn</div>
-				</a>
-				<a href="https://www.reddit.com/r/FirefoxCSS/" target="_blank">
-					<div class="link" tabindex="15">r/firefoxcss</div>
-				</a>
-				<a href="https://www.reddit.com/r/startpages/" target="_blank">
-					<div class="link" tabindex="16">r/startpages</div>
-				</a>
-			</div>
-		</div>
-	</div>
-	
-	
-	<div class="wave-container">
-		<div class="wave wave1"></div>
-		<div class="wave wave2"></div>
-		<div class="wave wave3"></div>
-		<div class="wave wave4"></div>
-	</div>
-	
-	<script src="script.js"></script>
-	
- </body>
- </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div id="outer">
+        <div id="middle">
+            <div class="terminal-screen" id="inner">
+                <!-- username with cursor -->
+                <div class="user">
+                    <a class="unix-user">&lambda;</a>
+                    <a class="unix-syntax2">&nbsp; &#126;</a>
+                    <!--  <a class="cursor">|</a> -->
+                </div>
+
+                <!-- links with sections -->
+                <div class="links-container">
+                    <div class="main">
+                        <ul class="hyperlinks">
+                            <li id="main-h">school</li>
+                            <li><a href="https://coursefinder.ucsd.edu/">ucsd_course_finder</a></li>
+                            <li><a href="http://piazza.com/">piazza</a></li>
+                            <li><a href="https://www.gradescope.com/">gradescope</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="social">
+                        <ul class="hyperlinks">
+                            <li id="social-h" >reddit</li>
+                            <li><a href="https://www.reddit.com/r/unixporn/">r/unixporn</a></li>                         
+                            <li><a href="https://www.reddit.com/r/FirefoxCSS/">r/firefoxcss</a></li>
+                            <li><a href="https://www.reddit.com/r/startpages/">r/startpages</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="programming">
+                        <ul class="hyperlinks">
+                            <li id="programming-h">other</li>
+                            <li><a href="https://github.com/">github</a></li>
+                            <li><a href="https://about.gitlab.com/">gitlab</a></li>
+                            <li><a href="https://twist.moe/">anime_twist</a></li>
+                            <li><a href="https://www.netflix.com/">netflix</a></li>
+                            <li><a href="https://www.youtube.com/">youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- search with duckduckgo-->
+                <div id="search">
+                    <a class="unix-user">&lambda;</a>
+                    <a class="unix-syntax2">&nbsp; &#126; &nbsp;</a>
+                    <form id="search-bar" method="get" action="http://duckduckgo.com/">
+                        <input type="text" name="q" placeholder="Search" autofocus />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
