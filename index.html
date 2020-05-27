@@ -2,66 +2,41 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>home</title>
 </head>
 
 <body>
-    <div id="outer">
-        <div id="middle">
-            <div class="terminal-screen" id="inner">
-                <!-- username with cursor -->
-                <div class="user">
-                    <a class="unix-user">&lambda;</a>
-                    <a class="unix-syntax2">&nbsp; &#126;</a>
-                    <!--  <a class="cursor">|</a> -->
-                </div>
-
-                <!-- links with sections -->
-                <div class="links-container">
-                    <div class="main">
-                        <ul class="hyperlinks">
-                            <li id="main-h">school</li>
-                            <li><a href="https://coursefinder.ucsd.edu/">ucsd_course_finder</a></li>
-                            <li><a href="http://piazza.com/">piazza</a></li>
-                            <li><a href="https://www.gradescope.com/">gradescope</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="social">
-                        <ul class="hyperlinks">
-                            <li id="social-h" >reddit</li>
-                            <li><a href="https://www.reddit.com/r/unixporn/">r/unixporn</a></li>                         
-                            <li><a href="https://www.reddit.com/r/FirefoxCSS/">r/firefoxcss</a></li>
-                            <li><a href="https://www.reddit.com/r/startpages/">r/startpages</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="programming">
-                        <ul class="hyperlinks">
-                            <li id="programming-h">other</li>
-                            <li><a href="https://github.com/">github</a></li>
-                            <li><a href="https://about.gitlab.com/">gitlab</a></li>
-                            <li><a href="https://twist.moe/">anime_twist</a></li>
-                            <li><a href="https://www.netflix.com/">netflix</a></li>
-                            <li><a href="https://www.youtube.com/">youtube</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- search with duckduckgo-->
-                <div id="search">
-                    <a class="unix-user">&lambda;</a>
-                    <a class="unix-syntax2">&nbsp; &#126; &nbsp;</a>
-                    <form id="search-bar" method="get" action="http://duckduckgo.com/">
-                        <input type="text" name="q" placeholder="Search" autofocus />
-                    </form>
-                </div>
-            </div>
+    <div class="box">
+        <div class="categories">
+            <p class="cat">School</p>
+            <p class="cat">Reddit</p>
+            <p class="cat">Other</p>
+        </div>
+        <div class="items">
+            <p class="lst">
+                <span style="color: var(--color1)">[</span><a href="https://coursefinder.ucsd.edu/">ucsd_course_finder</a><span style="color: var(--color1)">]</span>
+                <span style="color: var(--color3)">[</span><a href="http://piazza.com/">piazza</a><span style="color: var(--color3)">]</span>
+                <span style="color: var(--color6)">[</span><a href="http://ieng6.ucsd.edu/~cs15x/">cse15l</a><span style="color: var(--color6)">]</span>
+                <span style="color: var(--color5)">[</span><a href="https://www.gradescope.com/">gradescope</a><span style="color: var(--color5)">]</span>
+            </p>
+            <p class="lst">
+                <span style="color: var(--color1)">[</span><a href="https://www.reddit.com/">reddit</a><span style="color: var(--color1)">]</span>
+                <span style="color: var(--color5)">[</span><a href="https://www.reddit.com/r/unixporn/">r/unixporn</a><span style="color: var(--color5)">]</span>
+                <span style="color: var(--color3)">[</span><a href="https://www.reddit.com/r/FirefoxCSS/">r/firefoxcss</a><span style="color: var(--color3)">]</span>
+                <span style="color: var(--color6)">[</span><a href="https://www.reddit.com/r/startpages/">r/startpages</a><span style="color: var(--color6)">]</span>
+            </p>
+            <p class="lst">
+                <span style="color: var(--color1)">[</span><a href="https://github.com/">github</a><span style="color: var(--color1)">]</span>
+                <span style="color: var(--color5)">[</span><a href="https://reddit.com/r/unixporn">gitlab</a><span style="color: var(--color5)">]</span>
+                <span style="color: var(--color1)">[</span><a href="https://twist.moe/">anime_twist</a><span style="color: var(--color1)">]</span>
+                <span style="color: var(--color4)">[</span><a href="https://www.netflix.com/">netflix</a><span style="color: var(--color4)">]</span>
+                <span style="color: var(--color2)">[</span><a href="https://youtube.com">youtube</a><span style="color: var(--color2)">]</span>
+                <span style="color: var(--color5)">[</span><a href="https://gmail.com">mail</a><span style="color: var(--color5)">]</span>
+            </p>
         </div>
     </div>
 </body>
 </html>
+
