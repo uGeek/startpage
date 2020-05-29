@@ -1,5 +1,5 @@
 :root {
-    --base03: #2E3440;
+    --base03: #2d2d2d;
     --red: #BF616A;
     --green: #A3BE8C;
     --blue: #5E81AC;
@@ -63,7 +63,7 @@ ul {
 }
 
 input {
-    background-color: var(--base03);
+    background-color:  #383838;
     caret-color: var(--base0);
     outline: none;
     border: none;
@@ -75,13 +75,14 @@ input {
 
 .terminal-screen {
     overflow: hidden;
-    border: 3px solid var(--blue);
+    border: 0px solid var(--blue);
     padding: 12px;
-    border-radius: 0px;
+    border-radius: 5px;
+    background-color:  #383838;
 }
 
 .terminal-screen:hover {
-    box-shadow: 0px 0px 10px 2px #434c5e; 
+    box-shadow: 0px 0px 10px 2px #161616; 
     transition: all 0.25s;
 }
 
@@ -119,7 +120,7 @@ input {
 #search-bar {
     order: 4;
     overflow: hidden;
-    background: var(--base03);
+    background:  #383838;
     font-family: "Iosevka";
     display: flex;
 }
@@ -147,7 +148,7 @@ input {
 .main:hover,
 .social:hover,
 .programming:hover {
-    background-color: var(--base03);
+    background-color:  #383838;
 }
 
 .main {
