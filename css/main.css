@@ -1,5 +1,5 @@
 :root {
-    --base03: #2d2d2d;
+    --base03: #25282b;
     --red: #BF616A;
     --green: #A3BE8C;
     --blue: #5E81AC;
@@ -63,7 +63,7 @@ ul {
 }
 
 input {
-    background-color:  #383838;
+    background-color:  #31363A;
     caret-color: var(--base0);
     outline: none;
     border: none;
@@ -78,7 +78,7 @@ input {
     border: 0px solid var(--blue);
     padding: 20px;
     border-radius: 5px;
-    background-color:  #383838;
+    background-color:  #31363A;
 }
 
 .terminal-screen:hover {
@@ -120,7 +120,7 @@ input {
 #search-bar {
     order: 4;
     overflow: hidden;
-    background:  #383838;
+    background:  #3a3f45;
     font-family: "Iosevka";
     display: flex;
 }
@@ -143,12 +143,6 @@ input {
     padding: 10px;
     transition: background-color 0.3s;
     color: var(--cyan);
-}
-
-.main:hover,
-.social:hover,
-.programming:hover {
-    background-color:  #383838;
 }
 
 .main {
