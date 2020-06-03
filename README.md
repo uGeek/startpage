@@ -3,9 +3,11 @@
 </p>
 
 <p align="center">
-<b>Firefox Startpage</b>
+<b>Startpage</b>
 </p>
 
+## Preview
+
 <p align="center">
-<img src="https://imgur.com/y0O8DhW.jpg" alt="img" width="800px">
+<img src="https://imgur.com/GGNMkqf.gif" alt="img" width="800px">
 </p>
