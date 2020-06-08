@@ -1,10 +1,10 @@
 :root {
-    --base03: #2E3440;
-    --red: #BF616A;
-    --green: #A3BE8C;
-    --blue: #5E81AC;
-    --magenta: #B48EAD;
-    --cyan: #8FBCBB;
+    --base03: #191919;
+    --red: #a54242;
+    --green: #84b97c;
+    --blue: #5f819d;
+    --magenta: #85678f;
+    --cyan: #5e8d87;
     --orange: #EBCB8B;
 }
 
@@ -12,7 +12,7 @@ body, body * {
     margin: unset;
     box-sizing: unset;
     padding: unset;
-    font-size: 16px;
+    font-size: 14px;
     color: #839496;
     text-decoration: unset;
 }
@@ -50,9 +50,9 @@ body, body * {
 /* elements */
 body {
     background-color: var(--base03);
-    font-family: "Iosevka";
+    font-family: "Iosevka Term";
     color: var(--base0);
-    font-size: 16px;
+    font-size: 14px;
 }
 
 ul {
@@ -63,26 +63,26 @@ ul {
 }
 
 input {
-    background-color: #3B4252;
+    background-color: #212121;
     caret-color: var(--base0);
     outline: none;
     border: none;
     color: var(--base0);
-    font-family: "Iosevka";
-    font-size: 16px;
+    font-family: "Iosevka Term";
+    font-size: 14px;
     padding-left: 5px;
 }
 
 .terminal-screen {
-    background-color: #3B4252;
+    background-color: #212121;
     overflow: hidden;
-    border: 0px solid var(--blue);
+    border: 0px solid #5f5a60;
     padding: 20px;
     border-radius: 5px; 
 }
 
 .terminal-screen:hover {
-    box-shadow: 0px 0px 10px 2px #161616; 
+    box-shadow: 0px 0px 8px 5px  #302f2f; 
     transition: all 0.25s;
 }
 
@@ -115,7 +115,7 @@ input {
     order: 4;
     overflow: hidden;
     background: var(--base03);
-    font-family: "Iosevka";
+    font-family: "Iosevka Term";
     display: flex;
 }
 
