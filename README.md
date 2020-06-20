@@ -9,5 +9,5 @@
 ## Preview
 
 <p align="center">
-<img src="https://imgur.com/0QifSlP.gif" alt="img" width="800px">
+<img src="https://imgur.com/nEgRU13.gif" alt="img" width="800px">
 </p>
